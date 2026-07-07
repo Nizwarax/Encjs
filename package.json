@@ -1,0 +1,21 @@
+{
+  "name": "js-encrypt-password-railway-pro",
+  "version": "2.0.0",
+  "description": "Powerful JavaScript encrypt/obfuscate tool for Railway with _0x/RC4 style obfuscation and password vault encrypt/decrypt.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "javascript-obfuscator": "^4.1.1",
+    "jszip": "^3.10.1",
+    "multer": "^1.4.5-lts.1",
+    "terser": "^5.37.0"
+  }
+}
